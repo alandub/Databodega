@@ -1,0 +1,9 @@
+::DATABODEGA::
+
+Data visualisation made with Pure data & Gem. A file is loaded into the patch (.doc. jpeg etc.) where it's binary contents are output as a numbered sequence, creating parameters for 3d structures, sounds and text
+
+
+TODO
+*help patch
+*Audio Ouyput
+*Visual Output using GEM (Graphics Environment for Multimedia)

@@ -1,0 +1,32 @@
+#N canvas 1 51 1351 691 10;
+#X obj 110 159 playlist buddah3.wav 200 200 {Helvetica 11 Bold} #457782
+yellow black red;
+#X obj 131 520 binfile;
+#X obj 135 491 metro;
+#X floatatom 132 554 5 0 0 0 - - -;
+#X floatatom 202 472 5 0 0 0 - - -;
+#X obj 193 420 openpanel;
+#X obj 74 609 makefilename >%d;
+#X msg 179 637 \; c2 label \$1;
+#X obj 125 582 outlet;
+#X obj 354 442 inlet;
+#X msg 176 448 read \$1;
+#X obj 327 187 vsl 15 129 0 2000 0 0 empty empty speed -5 -15 0 10
+-257985 -1 -33289 11600 1;
+#X obj 110 361 cnv 15 145 29 empty c2 >248 1 12 0 25 -128992 -66577
+0;
+#X obj 198 361 bng 27 250 50 0 empty empty play 35 12 0 8 -4057 -4034
+-33289;
+#X connect 0 0 10 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 6 0;
+#X connect 3 0 8 0;
+#X connect 4 0 2 1;
+#X connect 5 0 10 0;
+#X connect 6 0 7 0;
+#X connect 9 0 4 0;
+#X connect 10 0 1 0;
+#X connect 11 0 4 0;
+#X connect 13 0 2 0;
+#X coords 0 -1 1 1 300 300 1 100 100;
